@@ -8,11 +8,11 @@
 </head>
 <body>
     <header>
-        <div class="container"><!--start container header-->
+        <div class="container">
+            <!--start container header-->
+            <a href="/"><span>Web</span>Studio</a>
+            <!--Змінила лого на текст посилання-->
             <nav>
-                <a href="/">
-                    <img src="./img/WebStudio.png " alt="логотип студии" width="145" height="31" >
-                </a>
                 <ul>
                     <li>
                         <a href="#">Студия</a>
@@ -25,99 +25,106 @@
                     </li>
                 </ul>
             </nav>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
-        </div><!--end container header-->        
+            <!--Контакти  оформила списком посилань-->
+            <ul>
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li><a href="tel:380961111111">+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+        <!--end container header-->        
     </header>
     <main>
-        <section class="hero-section"><!--start hero-section-->
+        <section class="hero-section">
+            <!--start hero-section-->
             <div class="container">
                 <h1>Эффективные решения для вашего бизнеса</h1>
                 <button type="button">Заказать услугу</button>
             </div>
-        </section><!--end hero-section-->
+        </section>
+        <!--end hero-section-->
         <section class="text-items">
-            <div class="container"><!--start container text-item-->
-                <div class="single-item">
-                    <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </div>
-                <!--end single-item-->
-                <div class="single-item">
-                    <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </div>
-                <!--end single-item-->
-                <div class="single-item">
-                    <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </div>
-                <!--end single-item-->
-                <div class="single-item">
-                    <h3>Современные технологии</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </div>
-                <!--end single-item-->
-            </div><!--end container text-item-->
+            <!--Секція 2 зробила список, підзаголовок, абзац, заголовок н2 з атрибутом хіден-->
+            <div class="container">
+                <!--start container text-item-->
+                <h2 hidden></h2>
+                <ul>
+                   <li>
+                        <h3>Внимание к деталям</h3>
+                        <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    </li>
+                    <li>
+                        <h3>Пунктуальность</h3>
+                        <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    </li>
+                    <li>
+                        <h3>Планирование</h3>
+                        <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    </li>
+                    <li>
+                        <h3>Современные технологии</h3>
+                        <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+            </div>
+            <!--end container text-item-->
         </section>
         <section class="image-items">
-            <div class="container"><!--start container image-items-->
+            <div class="container">
+                <!--start container image-item-->
                 <h2>Чем мы занимаемся</h2>
-                <div class="image-boxes">
-                    <div class="single-box">
+                <!--Секція 3 зробила список зображень -->
+                <ul>
+                    <li>
                         <img src="./img/work/img_1.jpg" alt="Разработка программного обеспечения" width="370" height="294">
-                    </div>
-                    <div class="single-box">
+                    </li>
+                    <li>
                         <img src="./img/work/img_2.jpg" alt="Разработка приложений" width="370" height="294">
-                    </div>
-                    <div class="single-box">
+                    </li>
+                    <li>
                         <img src="./img/work/img_3.jpg" alt="Разработка дизайна" width="370" height="294">
-                    </div>
-                </div><!--end single-box-->
-        <section class="image-items">
-            </div><!--end container image-items-->
+                    </li>
+                </ul>
+            </div>
+            <!--end container image-items-->
         </section>
         <section class="image-team">
-            <div class="container"><!-- start container Наша команда-->
+            <div class="container">
+                <!-- start container our team-->
                 <h2>Наша команда</h2>
-                <div class="image-team-boxes">
-                    <div class="single-team-box">
-                            <img src="./img/team/img_1.jpg" alt="веб разработчик" width="270" height="260">
-                        <div class="single-team-box-text">
-                            <h3>Игорь Демьяненко</h3>
-                            <p lang="en" class="position">Product Designer</p>
-                        </div>
-                    </div>
-                    <div class="single-team-box">
-                            <img src="./img/team/img_2.jpg" alt="веб разработчик" width="270" height="260">
-                        <div class="single-team-box-text">
-                            <h3>Ольга Репина</h3>
-                            <p lang="en" class="position">Frontend Developer</p>
-                        </div>
-                    </div>
-                    <div class="single-team-box">
-                            <img src="./img/team/img_3.jpg" alt="веб разработчик" width="270" height="260">
-                        <div class="single-team-box-text">
-                            <h3>Николай Тарасов</h3>
-                            <p lang="en" class="position">Marketing</p>
-                        </div>
-                    </div>
-                    <div class="single-team-box">
-                            <img src="./img/team/img_4.jpg" alt="веб разработчик" width="270" height="260">
-                        <div class="single-team-box-text">
-                            <h3>Михаил Ермаков</h3>
-                            <p lang="en" class="position">UI Designer</p>
-                        </div>
-                    </div>
-                </div><!--end single-team-box-->
-            </div><!--end container Наша команда-->
+                <!--Секція  Наша команда зробила список зображень -->
+                <ul>
+                    <li>
+                        <img src="./img/team/img_1.jpg" alt="веб разработчик" width="270" height="260">
+                        <h3>Игорь Демьяненко</h3>
+                        <p lang="en" class="position">Product Designer</p>
+                    </li>
+                    <li>
+                        <img src="./img/team/img_2.jpg" alt="веб разработчик" width="270" height="260">
+                        <h3>Ольга Репина</h3>
+                        <p lang="en" class="position">Frontend Developer</p>
+                    </li>
+                    <li>
+                        <img src="./img/team/img_3.jpg" alt="веб разработчик" width="270" height="260">
+                        <h3>Николай Тарасов</h3>
+                        <p lang="en" class="position">Marketing</p>
+                    </li>
+                    <li>
+                        <img src="./img/team/img_4.jpg" alt="веб разработчик" width="270" height="260">
+                        <h3>Михаил Ермаков</h3>
+                        <p lang="en" class="position">UI Designer</p>
+                    </li>
+                </ul>
+            </div>
+            <!--end container our team-->
         </section>
     </main>
     <footer>
-        <div class="container"><!--start container-->
-            <a href="/">
-                <img src="./img/WebStudio-footer.png " alt="логотип студии" width="145" height="31">
-            </a>
+        <div class="container">
+            <!--start container footer-->
+            <a href="/"><span>Web</span>Studio</a>
+            <!--Змінила лого на текст посилання-->
             <address>
                 <ul>
                     <li>
@@ -128,11 +135,12 @@
                         <a class="link" href="mailto:info@devstudio.com">info@example.com</a>
                     </li>
                     <li>
-                        <a href="tel:+380961111111">+38 096 111 11 11</a>
+                        <a href="tel:380961111111">+38 096 111 11 11</a>
                     </li>
                 </ul>
             </address>
-        </div><!--end container-->
+        </div>
+        <!--end container footer-->
     </footer>    
 </body>
 </html>
